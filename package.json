@@ -9,13 +9,12 @@
   },
   "devDependencies": {
     "autoprefixer": "latest",
-    "elm": "^0.19.1-5",
     "elm-test": "^0.19.1-revision7",
-    "http-server": "^0.12.3",
+    "elm-test-rs": "^3.0.0-5",
     "postcss": "latest",
     "tailwindcss": "latest",
-    "typescript": "^4.3.2",
-    "vite": "^2.4.4",
-    "vite-plugin-elm": "^2.4.2"
+    "typescript": "^5.2.2",
+    "vite": "^5.0.0",
+    "vite-plugin-elm": "^2.8.0"
   }
 }
