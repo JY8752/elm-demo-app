@@ -168,7 +168,7 @@ subscriptions _ =
 view : Model -> Html Msg
 view model =
     div [ class "w-screen h-screen flex justify-center items-center flex-col bg-slate-800" ]
-        [ img [ src "/public/vite.svg", class "h-60 w-60" ] []
+        [ img [ src "/public/gachagacha.png", class "h-70 w-50" ] []
         , button [ onClick Draw, class "mt-10 p-5 rounded bg-indigo-500 hover:bg-indigo-300" ] [ text "ガチャを引く" ]
         , div [ class "mt-10 grid grid-cols-1" ]
             [ div [ class "font-bold text-lg text-pink-400 col-span-1 text-center mb-2" ] [ text "Result" ]

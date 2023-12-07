@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
-    "test": "elm-test",
+    "tests": "bunx elm-test-rs",
     "build": "tsc && vite build",
     "serve": "vite preview"
   },
